@@ -1,0 +1,129 @@
+{
+  "basics": {
+    "name": "Emanuele Tessore",
+    "label": "Programmer",
+    "picture": "https://www.emanueletessore.com/files/2012/05/avatar.png",
+    "email": "emanuele.tessore@gmail.com",
+    "phone": "+39 393 42 27 139",
+    "website": "https://www.emanueletessore.com/",
+    "summary": "Hi! my name is Emanuele Tessore. I am a webdesigner, a developer and definitely I am a tech enthusiast. I started developing applications in academia, in early 2000, starting from languages ​​like C++ and Java. I always been fascinated by the potential of the Internet, a passion that led me to face either technical or design and marketing topics. Technology is the key point of my professional career, but it’s also my oldest hobby and of course one passion that takes me over the years.",
+    "location": {
+      "address": "via Nazario Sauro 14",
+      "postalCode": "30034",
+      "city": "Mira",
+      "countryCode": "IT",
+      "region": "Venice"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Emanuele Tessore",
+        "url": "https://www.linkedin.com/in/emanuele-tessore-02706924/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "T.S.W.",
+      "position": "Senior Web Developer",
+      "website": "http://www.tsw.it/",
+      "startDate": "2015-06-01",
+      "endDate": "2016-08-01",
+      "summary": "",
+      "highlights": [
+        "Developing and maintaining websites",
+        "Research & Development of new technologies"
+      ],
+      "responsibilities": [],
+      "projects": [],
+      "skills": [
+        "DevOps: Project deployment system via Git and Ansible"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "CoderDojo",
+      "position": "Teacher",
+      "website": "https://coderdojo.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": [
+        "Awarded 'Teacher of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Oklahoma",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01",
+      "gpa": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Video compression for 3d media",
+      "publisher": "Hooli",
+      "releaseDate": "2014-10-01",
+      "website": "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
+}
