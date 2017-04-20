@@ -24,32 +24,37 @@
   },
   "work": [
     {
+      "company": "Calicantus / WebMaori - Via A. Tommaso, 43 - 30020 Quarto d'Altino - Italy - +39 0422 782890",
+      "position": "Senior Backend Developer",
+      "department": "Technical Dept.",
+      "website": "https://calicant.us/",
+      "startDate": "2016-09-05",
+      "endDate": "present",
+      "summary": "Calicantus offers a complete outsourcing solution for your e-commerce; from technology to strategy, logistic, storage and shop management",
+      "highlights": [
+        "Custom e-commerce platform development and maintain",
+        "Two way ERP/e-commerce integration",
+        "Requirements collection, analysis and development of software solutions",
+        "Knowledge of common e-commerce operations and procedures",
+        "Update and upgrade legacy code running on production environment"
+      ]
+    },
+    {
       "company": "T.S.W. - Via Terraglio, 68 – 31100 Treviso – Italy - Tel: +39 0422 5115",
       "position": "Senior Web Developer",
       "department": "Research & Development",
       "website": "http://www.tsw.it/",
       "startDate": "2015-06-17",
       "endDate": "2016-08-12",
-      "summary": "T.S.W. is a web agency with a wide range of knowledge and experience in every aspect of digital marketing. Customers are followed through the development process of their web oriented projects: from the technical implementation to SEO and SEM strategies.",
+      "summary": "T.S.W. is a web agency with a wide range of knowledge and experience in every aspect of digital marketing. Customers are followed through the development process of their web oriented projects: from technical implementation to SEO and SEM strategies.",
       "highlights": [
         "Developing and maintaining websites",
         "Research & Development of new technologies",
-        "Project development workflow standardization"
-      ],
-      "projects": [
-        "Backend development of 'Eden Viaggi' one of the biggest italian tour operator",
-        "DevOps: Project deployment system via Git and Ansible",
-        "IraLab website, a big cosmetics manufacture",
-        "FinInt and Agitalab websites one of Italy's most dynamic and innovative companies operating in the financial sector.",
-        "Lazzaris website restyling: fruit sauces since 1900"
-      ],
-      "skills": [
-        "Wide use of OOP Patterns",
-        "Extensive experience with PHP and Symfony framework",
-        "Deep direct experience with Wordpress API",
-        "Node JS for front-end compiling and deploy",
+        "Project development workflow standardization",
+        "Wide use of PHP OOP Patterns on Symfony and Zend framework",
+        "Deep direct experience with WordPress API",
+        "Node JS for frontend compiling and deploy",
         "Multi-node website Infrastructure configuration and optimization",
-        "Some experience with Zend Framework",
         "Experience with Ansible for infrastructure orchestration and automation"
       ]
     },
@@ -64,24 +69,11 @@
       "highlights": [
         "Developing and maintaining websites",
         "Research & Development of new products",
-        "Project Manager for the Web Package Dept.",
-        "SEO for third party websites"
-      ],
-      "projects": [
-        "Blu Hotels company portal and every chain hotel official website (30+ hotels)",
-        "Setup, maintenance and optimization of a WordPress network of 300+ sites",
-        "Various hotel web sites and tourism portals for third parties",
-        "Development of plugins for jQuery such as Image Preload, Auto Padding, Social Applets, Animated PNG, Tabs",
-        "Development of javascript libraries for interoperability between different company products",
-        "Optimization and Modularization of WordPress themes",
-        "CSS and Javascript bug-fixing"
-      ],
-      "skills": [
+        "Project Manager and client accounting for the Web Package Dept.",
+        "SEO for third party websites",
         "Wide experience on AJAX, JavaScript for the DOM and jQuery framework",
         "Extensive experience with PHP and CodeIgniter framework",
-        "Deep direct experience with WordPress API",
-        "Basic knowledge of Adobe Fireworks and Photoshop",
-        "Project management and client accounting"
+        "Deep direct experience with WordPress API"
       ]
     },
     {
@@ -93,25 +85,9 @@
       "endDate": "2010-09-27",
       "summary": "",
       "highlights": [
-        "Developing and maintaining websites",
-        "Wordpress plugins development"
-      ],
-      "projects": [
-        "gajardoni.com - e-commerce of historical fencing gear",
-        "ubuntuphone.it - blog about open source phone by Canonical",
-        "huawei-italia.com - consumer blog about Huawei phones",
-        "fitbit-italia.it - consumer blog about FitBit smart watches",
-        "pebble-italia.it - consumer blog about Pebble smart watches",
-        "coppamontenero.it - reenactment of classic cars GP",
-        "anycoolitalia.it - consumer blog about mobile phones",
-        "programmipc.it - blog about free programs for PC",
-        "naturalrevolt.com - young fashion clothing e-commerce",
-        "apple-ipad-italia.it - mono-thematic web-directory"
-      ],
-      "skills": [
-        "In-depth knowledge of WordPress CMS",
-        "Excellent knowledge of PHP",
-        "SEO experience on AdSense related websites"
+        "Developing and maintaining LAMP infrastructure and WordPress network with 30+ websites",
+        "WordPress plugins development",
+        "DevOps automation and Continuous Integration"
       ]
     }
   ],
@@ -177,23 +153,50 @@
       "keywords": [
         "PHP",
         "OOP",
-        "NodeJS"
+        "NodeJS",
+        "Symfony",
+        "Rabbit MQ",
+        "Zend Framework",
+        "WordPress"
+      ]
+    },
+    {
+      "name": "Linux System Administration",
+      "level": "High",
+      "keywords": [
+        "CLI",
+        "SSH",
+        "Orchestration",
+        "Ubuntu"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "High",
+      "keywords": [
+        "Git",
+        "CI",
+        "TDD"
       ]
     },
     {
       "name": "Front-End Development",
-      "level": "Master",
+      "level": "Medium",
       "keywords": [
         "HTML",
         "CSS",
-        "Javascript"
+        "JavaScript",
+        "jQuery",
+        "Angular",
+        "Polymer",
+        "WordPress"
       ]
     }
   ],
   "languages": [
     {
       "language": "Italian",
-      "fluency": "Native speaker"
+      "fluency": "Native Speaker"
     },
     {
       "language": "English",
@@ -207,6 +210,29 @@
         "Raspberry PI",
         "Arduino"
       ]
+    },
+    {
+      "name": "Music",
+      "keywords": [
+        "Drums",
+        "Sound Engineering"
+      ]
+    },
+    {
+      "name": "Maker",
+      "keywords": [
+        "Wood Worker",
+        "CNC Machining",
+        "Gardening"
+      ]
+    },
+    {
+      "name": "Gamer",
+      "keywords": [
+        "RTS",
+        "FPS",
+        "MOBA"
+      ]
     }
   ],
   "references": [
@@ -217,6 +243,125 @@
     {
       "name": "Sebastiano Montino",
       "reference": "Collaborating with Emanuele was certainly challenging because of his natural inclination to make the web a better place. He's a complete web developer: his knowledge is not limited to standard web components like HTML, CSS and JS. He was sa really good collegue to work with."
+    }
+  ],
+  "projects": [
+    {
+      "name": "K-Maori",
+      "description": "A fully integrated e-commerce solution",
+      "highlights": [
+        "Knowledge of common e-commerce operations and procedures",
+        "How to update and upgrade legacy code running on production environment",
+        "Requirements collection, analysis and development of software solutions",
+        "Custom integration with client's ERPs",
+        "Customer documentation area modules",
+        "B2B functionality with agents and customers",
+        "Maintain and add new features",
+        "Migrate legacy code and bug-fixing"
+      ],
+      "keywords": [
+        "e-commerce",
+        "custom platform"
+      ],
+      "startDate": "2016-09-05",
+      "endDate": "present",
+      "url": "http://www.kmaori.com/",
+      "roles": [
+        "Software Architect",
+        "Backend Developer"
+      ],
+      "entity": "Calicantus",
+      "type": "application"
+    },
+    {
+      "name": "Eden Viaggi",
+      "description": "",
+      "highlights": [
+        "Backend development of one of the biggest italian tour operator",
+        "Integration between WordPress and based on AS400 custom APIs",
+        "DevOps: Project deployment system via Git and Ansible"
+      ],
+      "keywords": [],
+      "startDate": "2016-09-05",
+      "endDate": "present",
+      "url": "https://www.edenviaggi.it/",
+      "roles": [
+        "Software Architect",
+        "Backend Developer"
+      ],
+      "entity": "T.S.W.",
+      "type": "application"
+    },
+    {
+      "name": "IraLab",
+      "description": "New website for a big cosmetics manufacture",
+      "highlights": []
+    },
+    {
+      "name": "FinInt and Agitalab",
+      "description": "websites for one of Italy's most dynamic and innovative companies operating in the financial sector.",
+      "highlights": []
+    },
+    {
+      "name": "Lazzaris",
+      "description": "website restyling: fruit sauces since 1900",
+      "highlights": []
+    },
+    {
+      "name": "Blu Hotels",
+      "description": "company portal and every chain hotel official website (30+ hotels)",
+      "highlights": [
+        "Development of plugins for jQuery such as Image Preload, Auto Padding, Social Applets, Animated PNG, Tabs",
+        "Development of javascript libraries for interoperability between different company products",
+        "Optimization and Modularization of WordPress themes",
+        "CSS and Javascript bug-fixing"
+      ],
+      "keywords": [],
+      "startDate": "2016-09-05",
+      "endDate": "present",
+      "url": "http://www.bluhotels.it/",
+      "roles": [
+        "Software Architect",
+        "Backend Developer"
+      ],
+      "entity": "FastBooking",
+      "type": "application"
+    },
+    {
+      "name": "Gajardoni Sport",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "present",
+      "url": "",
+      "roles": [],
+      "entity": "independent",
+      "type": "application"
+    },
+    {
+      "name": "Ubuntu Phone Italia",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "present",
+      "url": "",
+      "roles": [],
+      "entity": "independent",
+      "type": "blog"
+    },
+    {
+      "name": "Natural Revolt",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "present",
+      "url": "",
+      "roles": [],
+      "entity": "independent",
+      "type": "e-commerce"
     }
   ]
 }
