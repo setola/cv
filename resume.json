@@ -24,106 +24,199 @@
   },
   "work": [
     {
-      "company": "T.S.W.",
+      "company": "T.S.W. - Via Terraglio, 68 – 31100 Treviso – Italy - Tel: +39 0422 5115",
       "position": "Senior Web Developer",
+      "department": "Research & Development",
       "website": "http://www.tsw.it/",
-      "startDate": "2015-06-01",
-      "endDate": "2016-08-01",
+      "startDate": "2015-06-17",
+      "endDate": "2016-08-12",
+      "summary": "T.S.W. is a web agency with a wide range of knowledge and experience in every aspect of digital marketing. Customers are followed through the development process of their web oriented projects: from the technical implementation to SEO and SEM strategies.",
+      "highlights": [
+        "Developing and maintaining websites",
+        "Research & Development of new technologies",
+        "Project development workflow standardization"
+      ],
+      "projects": [
+        "Backend development of 'Eden Viaggi' one of the biggest italian tour operator",
+        "DevOps: Project deployment system via Git and Ansible",
+        "IraLab website, a big cosmetics manufacture",
+        "FinInt and Agitalab websites one of Italy's most dynamic and innovative companies operating in the financial sector.",
+        "Lazzaris website restyling: fruit sauces since 1900"
+      ],
+      "skills": [
+        "Wide use of OOP Patterns",
+        "Extensive experience with PHP and Symfony framework",
+        "Deep direct experience with Wordpress API",
+        "Node JS for front-end compiling and deploy",
+        "Multi-node website Infrastructure configuration and optimization",
+        "Some experience with Zend Framework",
+        "Experience with Ansible for infrastructure orchestration and automation"
+      ]
+    },
+    {
+      "company": "FastBooking - Via Don Tosatto, 135 Venezia Mestre Tel: +39 041 532 19",
+      "position": "Project Manager and Web Developer",
+      "department": "Web Dep. - Research & Development",
+      "website": "http://www.fastbooking.com/",
+      "startDate": "2010-09-27",
+      "endDate": "2015-06-15",
       "summary": "",
       "highlights": [
         "Developing and maintaining websites",
-        "Research & Development of new technologies"
+        "Research & Development of new products",
+        "Project Manager for the Web Package Dept.",
+        "SEO for third party websites"
       ],
-      "responsibilities": [],
-      "projects": [],
+      "projects": [
+        "Blu Hotels company portal and every chain hotel official website (30+ hotels)",
+        "Setup, maintenance and optimization of a WordPress network of 300+ sites",
+        "Various hotel web sites and tourism portals for third parties",
+        "Development of plugins for jQuery such as Image Preload, Auto Padding, Social Applets, Animated PNG, Tabs",
+        "Development of javascript libraries for interoperability between different company products",
+        "Optimization and Modularization of WordPress themes",
+        "CSS and Javascript bug-fixing"
+      ],
       "skills": [
-        "DevOps: Project deployment system via Git and Ansible"
+        "Wide experience on AJAX, JavaScript for the DOM and jQuery framework",
+        "Extensive experience with PHP and CodeIgniter framework",
+        "Deep direct experience with WordPress API",
+        "Basic knowledge of Adobe Fireworks and Photoshop",
+        "Project management and client accounting"
+      ]
+    },
+    {
+      "company": "independent",
+      "position": "Freelance / Project",
+      "department": "",
+      "website": "",
+      "startDate": "2008-09-27",
+      "endDate": "2010-09-27",
+      "summary": "",
+      "highlights": [
+        "Developing and maintaining websites",
+        "Wordpress plugins development"
+      ],
+      "projects": [
+        "gajardoni.com - e-commerce of historical fencing gear",
+        "ubuntuphone.it - blog about open source phone by Canonical",
+        "huawei-italia.com - consumer blog about Huawei phones",
+        "fitbit-italia.it - consumer blog about FitBit smart watches",
+        "pebble-italia.it - consumer blog about Pebble smart watches",
+        "coppamontenero.it - reenactment of classic cars GP",
+        "anycoolitalia.it - consumer blog about mobile phones",
+        "programmipc.it - blog about free programs for PC",
+        "naturalrevolt.com - young fashion clothing e-commerce",
+        "apple-ipad-italia.it - mono-thematic web-directory"
+      ],
+      "skills": [
+        "In-depth knowledge of WordPress CMS",
+        "Excellent knowledge of PHP",
+        "SEO experience on AdSense related websites"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "https://coderdojo.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
+      "organization": "MT-Lab.org Mirano (VE)",
+      "position": "Partner",
+      "website": "http://mt-lab.org/",
+      "startDate": "2000-01-01",
+      "endDate": "2009-01-01",
+      "summary": "",
       "highlights": [
-        "Awarded 'Teacher of the Month'"
+        "Development, maintenance and SEO for websites and blogs",
+        "Linux Server admin",
+        "PHP Developer"
+      ],
+      "skills": [
+        "Good knowledge of Wordpress CMS and its APIs",
+        "Extended experience in developing PHP applications",
+        "Excellent knowledge of SEO techniques and web-marketing",
+        "Technical organization for events such as LAN-parties and conferences."
+      ]
+    },
+    {
+      "organization": "NGI and GamesNet",
+      "position": "Volunteer",
+      "website": "http://ngi.it/",
+      "startDate": "2000-01-01",
+      "endDate": "2009-01-01",
+      "summary": "",
+      "highlights": [
+        "Development and maintenance Gameservers Starsiege: Tribes",
+        "Organization tournaments and LAN-party",
+        "Linux Server admin",
+        "Design and Development of XetBot, an irc bot for gamers"
+      ],
+      "skills": [
+        "Excellent knowledge of HTML",
+        "Experience developing PHP applications",
+        "Technical organization of lan parties and tournaments",
+        "Excellent knowledge of Java, in particular jConnector",
+        "Experience in remote management of systems Gentoo and Debian"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
+      "institution": "Valsalice Salesian Institute",
       "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
+      "studyType": "High School",
+      "startDate": "2002-01-01",
+      "endDate": "1997-01-01",
+      "gpa": "70/100",
+      "courses": []
     }
   ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "website": "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
-    }
-  ],
+  "awards": [],
+  "publications": [],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Back-End Development",
+      "level": "Master",
+      "keywords": [
+        "PHP",
+        "OOP",
+        "NodeJS"
+      ]
+    },
+    {
+      "name": "Front-End Development",
       "level": "Master",
       "keywords": [
         "HTML",
         "CSS",
         "Javascript"
       ]
-    },
-    {
-      "name": "Compression",
-      "level": "Master",
-      "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
-      ]
     }
   ],
   "languages": [
     {
-      "language": "English",
+      "language": "Italian",
       "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Good"
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Embedded Systems",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Raspberry PI",
+        "Arduino"
       ]
     }
   ],
   "references": [
     {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      "name": "Matteo Canever",
+      "reference": "Emanuele's passion for the web and technology is huge. We work in the same team and we often collaborate to find solutions and optimize our tools. He's an experienced web developer and project manager and his approach is focused on code quality and reuse."
+    },
+    {
+      "name": "Sebastiano Montino",
+      "reference": "Collaborating with Emanuele was certainly challenging because of his natural inclination to make the web a better place. He's a complete web developer: his knowledge is not limited to standard web components like HTML, CSS and JS. He was sa really good collegue to work with."
     }
   ]
 }
