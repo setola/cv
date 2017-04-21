@@ -6,7 +6,7 @@
     "email": "emanuele.tessore@gmail.com",
     "phone": "+39 393 42 27 139",
     "website": "https://www.emanueletessore.com/",
-    "summary": "Hi! my name is Emanuele Tessore. I am a webdesigner, a developer and definitely I am a tech enthusiast. I started developing applications in academia, in early 2000, starting from languages ​​like C++ and Java. I always been fascinated by the potential of the Internet, a passion that led me to face either technical or design and marketing topics. Technology is the key point of my professional career, but it’s also my oldest hobby and of course one passion that takes me over the years.",
+    "summary": "Hi! my name is Emanuele Tessore. I am a web developer and definitely a tech enthusiast. I started developing applications in academia, in early 2000, starting from languages ​​like C++ and Java. I always been fascinated by the potential of the Internet, a passion that led me to face either technical or design and marketing topics. Technology is the key point of my professional career, but it’s also my oldest hobby and of course one passion that takes me over the years.",
     "location": {
       "address": "via Nazario Sauro 14",
       "postalCode": "30034",
@@ -24,12 +24,11 @@
   },
   "work": [
     {
-      "company": "Calicantus / WebMaori - Via A. Tommaso, 43 - 30020 Quarto d'Altino - Italy - +39 0422 782890",
+      "company": "Calicantus / WebMaori",
       "position": "Senior Backend Developer",
       "department": "Technical Dept.",
       "website": "https://calicant.us/",
       "startDate": "2016-09-05",
-      "endDate": "present",
       "summary": "Calicantus offers a complete outsourcing solution for your e-commerce; from technology to strategy, logistic, storage and shop management",
       "highlights": [
         "Custom e-commerce platform development and maintain",
@@ -40,7 +39,7 @@
       ]
     },
     {
-      "company": "T.S.W. - Via Terraglio, 68 – 31100 Treviso – Italy - Tel: +39 0422 5115",
+      "company": "T.S.W.",
       "position": "Senior Web Developer",
       "department": "Research & Development",
       "website": "http://www.tsw.it/",
@@ -59,13 +58,13 @@
       ]
     },
     {
-      "company": "FastBooking - Via Don Tosatto, 135 Venezia Mestre Tel: +39 041 532 19",
+      "company": "FastBooking",
       "position": "Project Manager and Web Developer",
       "department": "Web Dep. - Research & Development",
       "website": "http://www.fastbooking.com/",
       "startDate": "2010-09-27",
       "endDate": "2015-06-15",
-      "summary": "",
+      "summary": "With an extensive array of cutting-edge e-commerce solutions on offer, FASTBOOKING brings the digital traveler to hotels’ doorstep. They offer hoteliers tailor-made strategies and on-going expert advice, boosting their direct sales, improving their operating results and helping them get greater independence.",
       "highlights": [
         "Developing and maintaining websites",
         "Research & Development of new products",
@@ -77,7 +76,7 @@
       ]
     },
     {
-      "company": "independent",
+      "company": "Independent",
       "position": "Freelance / Project",
       "department": "",
       "website": "",
@@ -88,6 +87,22 @@
         "Developing and maintaining LAMP infrastructure and WordPress network with 30+ websites",
         "WordPress plugins development",
         "DevOps automation and Continuous Integration"
+      ]
+    },
+    {
+      "company": "Zip Progetti",
+      "position": "Technician",
+      "department": "Tech Dept.",
+      "website": "http://www.zip-progetti.it/",
+      "startDate": "2004-09-27",
+      "endDate": "2008-09-27",
+      "summary": "Communication Agency specialized in radio advertising with a press office delivering content about local news",
+      "highlights": [
+        "Developing and maintaining of audio and video streaming equipment",
+        "Setup and configuration of web-radio software integrated with website",
+        "Net infrastructure setup and maintenance",
+        "Development of a multimedia distribution system",
+        "Producer and sound engineer"
       ]
     }
   ],
@@ -144,8 +159,6 @@
       "courses": []
     }
   ],
-  "awards": [],
-  "publications": [],
   "skills": [
     {
       "name": "Back-End Development",
@@ -275,22 +288,22 @@
     },
     {
       "name": "Eden Viaggi",
-      "description": "",
+      "description": "Corporate website selling travel packages",
       "highlights": [
         "Backend development of one of the biggest italian tour operator",
         "Integration between WordPress and based on AS400 custom APIs",
         "DevOps: Project deployment system via Git and Ansible"
       ],
       "keywords": [],
-      "startDate": "2016-09-05",
-      "endDate": "present",
+      "startDate": "2015-06-17",
+      "endDate": "2016-03-27",
       "url": "https://www.edenviaggi.it/",
       "roles": [
         "Software Architect",
         "Backend Developer"
       ],
       "entity": "T.S.W.",
-      "type": "application"
+      "type": "backend"
     },
     {
       "name": "IraLab",
@@ -298,9 +311,12 @@
       "highlights": []
     },
     {
-      "name": "FinInt and Agitalab",
+      "name": "Banca FinInt",
       "description": "websites for one of Italy's most dynamic and innovative companies operating in the financial sector.",
-      "highlights": []
+      "highlights": [],
+      "url": "http://www.bancafinint.com/it/",
+      "entity": "T.S.W.",
+      "type": "frontend"
     },
     {
       "name": "Lazzaris",
@@ -357,10 +373,61 @@
       "highlights": [],
       "keywords": [],
       "startDate": "",
-      "endDate": "present",
+      "endDate": "",
       "url": "",
       "roles": [],
       "entity": "independent",
+      "type": "e-commerce"
+    },
+    {
+      "name": "xSMS",
+      "description": "",
+      "highlights": [],
+      "keywords": [
+        "Java",
+        "SMS"
+      ],
+      "startDate": "",
+      "endDate": "",
+      "url": "",
+      "roles": [
+        "developer"
+      ],
+      "entity": "independent",
+      "type": "e-commerce"
+    },
+    {
+      "name": "Atrium Radio",
+      "description": "",
+      "highlights": [],
+      "keywords": [
+        "Java",
+        "SMS"
+      ],
+      "startDate": "2004",
+      "endDate": "2006",
+      "url": "",
+      "roles": [
+        "developer"
+      ],
+      "entity": "Zip Progetti",
+      "type": "e-commerce"
+    },
+    {
+      "name": "Zip News",
+      "description": "",
+      "highlights": [],
+      "keywords": [
+        "PHP",
+        "WordPress"
+      ],
+      "startDate": "2004",
+      "endDate": "2006",
+      "url": "http://zipnews.it/",
+      "roles": [
+        "developer"
+      ],
+      "entity": "Zip Progetti",
       "type": "e-commerce"
     }
   ]
