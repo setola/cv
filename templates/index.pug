@@ -1,0 +1,21 @@
+|<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        title= resume.basics.name
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Roboto+Condensed")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Roboto")
+        style!= css
+
+
+    body(itemscope, itemtype="http://schema.org/Person")
+        .container-fluid
+            .row.main.clearfix
+                include jade/floating-nav
+                include jade/profile-card
+                include jade/background-card
+
+        include jade/scripts

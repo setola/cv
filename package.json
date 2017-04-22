@@ -1,0 +1,26 @@
+{
+  "name": "cv-emanuele-tessore",
+  "version": "1.0.0",
+  "description": "Emanuele Tessore'\\s resume",
+  "main": "index.js",
+  "dependencies": {
+    "pug": "^2.0.0-beta.12"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-pug": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/setola/cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/setola/cv#readme"
+}

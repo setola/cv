@@ -1,0 +1,45 @@
+unless _.isEmpty(resume.projects)
+  .detail#projects
+    .icon
+      i.fs-lg.icon-office
+      span.mobile-title Main Followed Projects
+
+    .info
+      h4.title.text-uppercase Main Projects
+
+      ul.list-unstyled.clear-margin
+        each experience in resume.projects
+          li.card.card-nested.clearfix
+            .content
+              p.clear-margin.relative
+                if !experience.endDate
+                  i.icon-circle.current-event(
+                    rel="tooltip",
+                    title="Currently Working",
+                    data-placement="left"
+                  )
+                unless _.isEmpty(experience.roles)
+                  - var roles = experience.roles.join(', ')
+                  strong= roles
+                  |,&nbsp;
+                if experience.url
+                  a(href=experience.url, target="_blank")= experience.name
+                else
+                  |#{experience.name}
+
+              p.text-muted
+                small
+                  span.space-right
+                    |#{experience.startDate} - #{experience.endDate || 'Present'}
+
+                  if experience.duration
+                    span
+                      i.icon-clock.mr-5
+                      |#{experience.duration}
+
+              .mop-wrapper.space-bottom!= experience.summary
+
+              unless _.isEmpty(experience.highlights)
+                ul
+                  each highlight in experience.highlights
+                    li.mop-wrapper!= highlight

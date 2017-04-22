@@ -6,7 +6,7 @@
     "email": "emanuele.tessore@gmail.com",
     "phone": "+39 393 42 27 139",
     "website": "https://www.emanueletessore.com/",
-    "summary": "Hi! my name is Emanuele Tessore. I am a web developer and definitely a tech enthusiast. I started developing applications in academia, in early 2000, starting from languages ​​like C++ and Java. I always been fascinated by the potential of the Internet, a passion that led me to face either technical or design and marketing topics. Technology is the key point of my professional career, but it’s also my oldest hobby and of course one passion that takes me over the years.",
+    "summary": "Hi! my name is **Emanuele Tessore**. I am a **web developer** and definitely a **tech enthusiast**. I started developing applications in academia, in early 2000, starting from languages ​​like **C++** and **Java**. I always been fascinated by the potential of the Internet, a passion that led me to face **either technical** or **design and marketing** topics. Technology is the key point of my professional career, but it’s also my oldest hobby and of course one **passion** that takes me over the years.",
     "location": {
       "address": "via Nazario Sauro 14",
       "postalCode": "30034",
@@ -29,9 +29,9 @@
       "department": "Technical Dept.",
       "website": "https://calicant.us/",
       "startDate": "2016-09-05",
-      "summary": "Calicantus offers a complete outsourcing solution for your e-commerce; from technology to strategy, logistic, storage and shop management",
+      "summary": "Calicantus offers a **complete outsourcing solution for your e-commerce**; from technology to strategy, logistic, storage and shop management",
       "highlights": [
-        "Custom e-commerce platform development and maintain",
+        "Custom e-commerce platform development and maintenance",
         "Two way ERP/e-commerce integration",
         "Requirements collection, analysis and development of software solutions",
         "Knowledge of common e-commerce operations and procedures",
@@ -45,7 +45,7 @@
       "website": "http://www.tsw.it/",
       "startDate": "2015-06-17",
       "endDate": "2016-08-12",
-      "summary": "T.S.W. is a web agency with a wide range of knowledge and experience in every aspect of digital marketing. Customers are followed through the development process of their web oriented projects: from technical implementation to SEO and SEM strategies.",
+      "summary": "T.S.W. is a web agency with a **wide range of knowledge and experience** in every aspect of **digital marketing**. Customers are followed through the development process of their web oriented projects: from technical implementation to SEO and SEM strategies.",
       "highlights": [
         "Developing and maintaining websites",
         "Research & Development of new technologies",
@@ -64,7 +64,7 @@
       "website": "http://www.fastbooking.com/",
       "startDate": "2010-09-27",
       "endDate": "2015-06-15",
-      "summary": "With an extensive array of cutting-edge e-commerce solutions on offer, FASTBOOKING brings the digital traveler to hotels’ doorstep. They offer hoteliers tailor-made strategies and on-going expert advice, boosting their direct sales, improving their operating results and helping them get greater independence.",
+      "summary": "With an extensive array of cutting-edge **e-commerce solutions** on offer, FASTBOOKING brings the digital traveler to hotels’ doorstep. They offer **hoteliers** tailor-made strategies and on-going expert advice, boosting their direct sales, improving their operating results and helping them get greater independence.",
       "highlights": [
         "Developing and maintaining websites",
         "Research & Development of new products",
@@ -76,17 +76,17 @@
       ]
     },
     {
-      "company": "Independent",
-      "position": "Freelance / Project",
-      "department": "",
+      "company": "Citex Network",
+      "position": "Co-Owner, CTO",
+      "department": "IT Ops",
       "website": "",
       "startDate": "2008-09-27",
-      "endDate": "2010-09-27",
       "summary": "",
       "highlights": [
         "Developing and maintaining LAMP infrastructure and WordPress network with 30+ websites",
         "WordPress plugins development",
-        "DevOps automation and Continuous Integration"
+        "DevOps automation and Continuous Integration",
+        "SEO for AdSense centered blogs"
       ]
     },
     {
@@ -117,9 +117,6 @@
       "highlights": [
         "Development, maintenance and SEO for websites and blogs",
         "Linux Server admin",
-        "PHP Developer"
-      ],
-      "skills": [
         "Good knowledge of Wordpress CMS and its APIs",
         "Extended experience in developing PHP applications",
         "Excellent knowledge of SEO techniques and web-marketing",
@@ -137,9 +134,7 @@
         "Development and maintenance Gameservers Starsiege: Tribes",
         "Organization tournaments and LAN-party",
         "Linux Server admin",
-        "Design and Development of XetBot, an irc bot for gamers"
-      ],
-      "skills": [
+        "Design and Development of XetBot, an irc bot for gamers",
         "Excellent knowledge of HTML",
         "Experience developing PHP applications",
         "Technical organization of lan parties and tournaments",
@@ -151,7 +146,7 @@
   "education": [
     {
       "institution": "Valsalice Salesian Institute",
-      "area": "Information Technology",
+      "area": "Math and Science Academy",
       "studyType": "High School",
       "startDate": "2002-01-01",
       "endDate": "1997-01-01",
@@ -175,7 +170,7 @@
     },
     {
       "name": "Linux System Administration",
-      "level": "High",
+      "level": "Advanced",
       "keywords": [
         "CLI",
         "SSH",
@@ -185,7 +180,7 @@
     },
     {
       "name": "DevOps",
-      "level": "High",
+      "level": "Intermediate",
       "keywords": [
         "Git",
         "CI",
@@ -194,7 +189,7 @@
     },
     {
       "name": "Front-End Development",
-      "level": "Medium",
+      "level": "Intermediate",
       "keywords": [
         "HTML",
         "CSS",
@@ -234,7 +229,7 @@
     {
       "name": "Maker",
       "keywords": [
-        "Wood Worker",
+        "Wood Working",
         "CNC Machining",
         "Gardening"
       ]
@@ -277,14 +272,13 @@
         "custom platform"
       ],
       "startDate": "2016-09-05",
-      "endDate": "present",
       "url": "http://www.kmaori.com/",
       "roles": [
         "Software Architect",
         "Backend Developer"
       ],
       "entity": "Calicantus",
-      "type": "application"
+      "type": "backend"
     },
     {
       "name": "Eden Viaggi",
@@ -292,7 +286,9 @@
       "highlights": [
         "Backend development of one of the biggest italian tour operator",
         "Integration between WordPress and based on AS400 custom APIs",
-        "DevOps: Project deployment system via Git and Ansible"
+        "DevOps: Project deployment system via Git and Ansible",
+        "Heavy load application development and optimization",
+        "Multi-node application with message queue"
       ],
       "keywords": [],
       "startDate": "2015-06-17",
@@ -306,129 +302,40 @@
       "type": "backend"
     },
     {
-      "name": "IraLab",
-      "description": "New website for a big cosmetics manufacture",
-      "highlights": []
-    },
-    {
-      "name": "Banca FinInt",
-      "description": "websites for one of Italy's most dynamic and innovative companies operating in the financial sector.",
-      "highlights": [],
-      "url": "http://www.bancafinint.com/it/",
-      "entity": "T.S.W.",
-      "type": "frontend"
-    },
-    {
-      "name": "Lazzaris",
-      "description": "website restyling: fruit sauces since 1900",
-      "highlights": []
-    },
-    {
       "name": "Blu Hotels",
-      "description": "company portal and every chain hotel official website (30+ hotels)",
+      "description": "Company portal and every chain hotel official website (30+ hotels)",
       "highlights": [
-        "Development of plugins for jQuery such as Image Preload, Auto Padding, Social Applets, Animated PNG, Tabs",
-        "Development of javascript libraries for interoperability between different company products",
-        "Optimization and Modularization of WordPress themes",
-        "CSS and Javascript bug-fixing"
+        "Development of the new company portal and single hotel website, wire-framing and UX/UI design",
+        "Development of web interface to the company's affiliate system",
+        "Development of one way interface between rates manager and website",
+        "Project management and client accounting"
       ],
       "keywords": [],
       "startDate": "2016-09-05",
       "endDate": "present",
       "url": "http://www.bluhotels.it/",
       "roles": [
-        "Software Architect",
-        "Backend Developer"
+        "Backend Developer",
+        "Project Manager"
       ],
       "entity": "FastBooking",
-      "type": "application"
+      "type": "full-stack"
     },
     {
       "name": "Gajardoni Sport",
-      "description": "",
-      "highlights": [],
+      "description": "Company new e-commerce selling fencing equipment worldwide",
+      "highlights": [
+        "Installation and maintenance of WooCommerce in a multi-site environment",
+        "Development of a one way integration between Danea EasyFatt and WooCommerce"
+      ],
       "keywords": [],
-      "startDate": "",
-      "endDate": "present",
-      "url": "",
-      "roles": [],
-      "entity": "independent",
-      "type": "application"
-    },
-    {
-      "name": "Ubuntu Phone Italia",
-      "description": "",
-      "highlights": [],
-      "keywords": [],
-      "startDate": "",
-      "endDate": "present",
-      "url": "",
-      "roles": [],
-      "entity": "independent",
-      "type": "blog"
-    },
-    {
-      "name": "Natural Revolt",
-      "description": "",
-      "highlights": [],
-      "keywords": [],
-      "startDate": "",
-      "endDate": "",
-      "url": "",
-      "roles": [],
-      "entity": "independent",
-      "type": "e-commerce"
-    },
-    {
-      "name": "xSMS",
-      "description": "",
-      "highlights": [],
-      "keywords": [
-        "Java",
-        "SMS"
-      ],
-      "startDate": "",
-      "endDate": "",
-      "url": "",
+      "startDate": "2016-11-03",
+      "url": "http://www.gajardoni.com/",
       "roles": [
-        "developer"
+        "Backend Developer"
       ],
-      "entity": "independent",
-      "type": "e-commerce"
-    },
-    {
-      "name": "Atrium Radio",
-      "description": "",
-      "highlights": [],
-      "keywords": [
-        "Java",
-        "SMS"
-      ],
-      "startDate": "2004",
-      "endDate": "2006",
-      "url": "",
-      "roles": [
-        "developer"
-      ],
-      "entity": "Zip Progetti",
-      "type": "e-commerce"
-    },
-    {
-      "name": "Zip News",
-      "description": "",
-      "highlights": [],
-      "keywords": [
-        "PHP",
-        "WordPress"
-      ],
-      "startDate": "2004",
-      "endDate": "2006",
-      "url": "http://zipnews.it/",
-      "roles": [
-        "developer"
-      ],
-      "entity": "Zip Progetti",
-      "type": "e-commerce"
+      "entity": "Citex Network",
+      "type": "backend"
     }
   ]
 }
