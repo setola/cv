@@ -10,7 +10,29 @@ images:
 build:
 	@echo Generating CV
 	@echo ----------------------
-	@echo TODO
+	docker run \
+		--rm \
+		--volume $$PWD/src:/home/node/app \
+		--workdir /home/node/app \
+		node resume export resume.html --theme elegant
+
+test:
+	@echo Testing resume.json
+	@echo ----------------------
+	docker run \
+		--rm \
+		--volume $$PWD/src:/home/node/app \
+		--workdir /home/node/app \
+		node resume test
+
+serve:
+	@echo Generating CV
+	@echo ----------------------
+	docker run \
+		--rm \
+		--volume $$PWD/src:/home/node/app \
+		--workdir /home/node/app \
+		node resume serve
 
 clean:
 	@echo Removing $$BUILD_DIR content
