@@ -1,43 +1,51 @@
 DOCKER_TAG="latest"
 DIR=.
 BUILD_DIR=./build
-THEME="ks"
+THEME=even
 
-images:
-	@echo Generating Docker images
-	@echo ----------------------
-	@find $$DIR -type f -name Dockerfile -exec sh -c 'docker build --no-cache --rm -t $$(basename $$(dirname "$${0}")):${DOCKER_TAG} -f $${0} ./' {} \;
+.PHONY : install build test
+
+install:
+	@echo Generating CV
+	@echo -------------------------------
+	@docker run \
+		--rm \
+		--volume $$PWD/src:/home/node/app \
+		--workdir /home/node/app \
+		node \
+		yarn install
 
 build:
 	@echo Generating CV
-	@echo ----------------------
-	docker run \
+	@echo -------------------------------
+	@docker run \
 		--rm \
+		-ti \
 		--volume $$PWD/src:/home/node/app \
 		--workdir /home/node/app \
-		node resume export resume.html --theme ${THEME}
+		node \
+		resume export resume.html --theme ${THEME}
 
 test:
 	@echo Testing resume.json
-	@echo ----------------------
-	docker run \
+	@echo -------------------------------
+	@docker run \
 		--rm \
 		--volume $$PWD/src:/home/node/app \
 		--workdir /home/node/app \
-		node resume test
+		node resume validate
 
-serve:
-	@echo Generating CV
-	@echo ----------------------
-	docker run \
+serve: install build test
+	@echo Serving CV
+	@echo -------------------------------
+	@docker run \
 		--rm \
 		--volume $$PWD/src:/home/node/app \
 		--workdir /home/node/app \
 		--publish 4000:4000 \
-		node resume serve \
-		--theme /home/node/app/node_modules/
+		node resume serve
 
 console:
 	@echo Opening console into container
-	@echo ----------------------
+	@echo -------------------------------
 	@docker-compose run --rm node ash -l

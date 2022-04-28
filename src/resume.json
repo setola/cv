@@ -1,15 +1,16 @@
 {
   "meta": {
-    "theme": "elegant"
+    "theme": "stackoverflow"
   },
   "basics": {
     "name": "Emanuele Tessore",
     "label": "IT Nerd",
-    "picture": "https://www.gravatar.com/avatar/0a45f1fb68f93a8a28bac085c505eacd?size=2048",
+    "picture": "https://www.gravatar.com/avatar/0a45f1fb68f93a8a28bac085c505eacd?size=800",
+    "image": "https://www.gravatar.com/avatar/0a45f1fb68f93a8a28bac085c505eacd?size=800",
     "email": "emanuele.tessore@gmail.com",
     "phone": "+39 393 42 27 139",
     "website": "https://www.emanueletessore.com/",
-    "summary": "Hi! my name is **Emanuele Tessore**. \n\nI am a **web developer** and definitely a **tech enthusiast**.\n\nI've started developing applications in academia, in early 2000, with languages like **C++** and **Java**.\n\nI've always been fascinated by the potential of the Internet, a passion that led me to face **either technical** or **design and marketing** topics.\n\nTechnology is the key point of my professional career, but it’s also my oldest hobby and of course one **passion** that takes me over the years.",
+    "summary": "Hi! my name is **Emanuele**; I am a **dev ops**, I was a **web developer** and I'll forever be a **tech enthusiast**.\n\nI've started developing applications in academia, in early 2000, with languages like **C++** and **Java**.\n\nI've always been fascinated by the potential of the Internet, a passion that led me to face **either technical** or **design and marketing** topics.\n\nTechnology is the key point of my professional career, but it’s also my oldest hobby and of course one **passion** that takes me over the years.",
     "location": {
       "address": "via Firenze 3",
       "postalCode": "30035",
@@ -44,22 +45,22 @@
       "startDate": "2022-06-01",
       "summary": "DMIND is a multi-media Communication Agency: we take care of everithing from creativity to online and offline communication strategy and planning, including technical stuff for your online projects",
       "highlights": [
-        "CI\\CD Architect for internal and external projects",
+        "CI/CD Architect for internal and external projects",
         "Transition to containers for development and production environments",
         "Kubernetes Architect for hosting internal and external projects",
         "Servers and network equipment management"
       ]
     },
     {
-      "name": "Digital Mind",
+      "name": "DigitalMind",
       "position": "Senior Backend Developer",
       "department": "RedBooth Lab (IT dept.)",
       "website": "https://www.digital-mind.it/",
-      "startDate": "2018-10-01",
+      "startDate": "2018-09-03",
       "endDate": "2022-05-31",
       "summary": "DigitalMind is a multi-media Communication Agency: we take care of everithing from creativity to online and offline communication strategy and planning, including technical stuff for your online projects",
       "highlights": [
-        "CI\\CD Architect for internal and external projects",
+        "CI/CD Architect for internal and external projects",
         "Servers and network equipment management",
         "Requirements collection, analysis and development of software solutions",
         "IT consultant and audit for third party installations",
@@ -125,6 +126,7 @@
       "department": "IT Ops",
       "website": "",
       "startDate": "2008-09-27",
+      "endDate": "2018-09-27",
       "summary": "",
       "highlights": [
         "Developing and maintaining LAMP infrastructure and WordPress network with 30+ websites",
@@ -303,7 +305,7 @@
   ],
   "projects": [
     {
-      "name": "Kubernetes in production",
+      "name": "Modernize prod infrastructure",
       "description": "Re-designing the production infrastructure to take advantages of containerization technology, orchestrated by Kubernets",
       "highlights": [
         "Research of K8s capabilities",
@@ -319,26 +321,26 @@
         "container",
         "development"
       ],
-      "startDate": "2020-02-01",
-      "url": "http://www.rblab.it/",
+      "startDate": "2021-02-01",
+      "endDate": "2022-02-01",
+      "url": "http://www.dmind.it/",
       "roles": [
-        "Infrastructure Architect",
-        "IT Ops"
+        "Infrastructure Architect"
       ],
-      "entity": "Digital Mind",
+      "entity": "DigitalMind",
       "type": "it-ops"
     },
     {
-      "name": "Containerization of dev environment",
-      "description": "The process to move development workflow from a locally installed LAMP stack to docker containers",
+      "name": "Containers in development workflow",
+      "description": "Upgrading development workflow from a locally installed LAMP stack to docker containers",
       "highlights": [
         "Research on costs and benefits of using containers while developing tech projects",
         "Comparison of container orchestration tools such as docker-compose",
-        "Integration with existing CI\\CD josb and pipelines",
-        "Development of custom docker images",
+        "Integration with existing CI/CD josb and pipelines",
+        "Development of tailor made docker images",
         "Porting of existing project to docker-compose environment",
         "Tool for syncronize databases and media on dev, stage and prod environments",
-        "Bug fixing and new features for CI\\CD, docker images and compose files"
+        "Bug fixing and new features for CI/CD, docker images and compose files"
       ],
       "keywords": [
         "docker",
@@ -346,12 +348,13 @@
         "development"
       ],
       "startDate": "2019-02-01",
+      "endDate": "2021-02-01",
       "url": "http://www.rblab.it/",
       "roles": [
         "Software Architect",
         "IT Ops"
       ],
-      "entity": "Digital Mind",
+      "entity": "DigitalMind",
       "type": "it-ops"
     },
     {
@@ -370,13 +373,14 @@
         "custom platform"
       ],
       "startDate": "2018-10-01",
+      "endDate": "2019-10-01",
       "url": "http://www.iris-group.it/",
       "roles": [
         "Software Architect",
         "Backend Developer",
         "IT Ops"
       ],
-      "entity": "Digital Mind",
+      "entity": "DigitalMind",
       "type": "full-stack"
     },
     {
@@ -397,6 +401,7 @@
         "custom platform"
       ],
       "startDate": "2016-09-05",
+      "endDate": "2018-08-01",
       "url": "http://www.kmaori.com/",
       "roles": [
         "Software Architect",
