@@ -4,16 +4,16 @@
   },
   "basics": {
     "name": "Emanuele Tessore",
-    "label": "Programmer",
-    "picture": "https://www.emanueletessore.com/files/2012/05/avatar.png",
+    "label": "IT Nerd",
+    "picture": "https://www.gravatar.com/avatar/0a45f1fb68f93a8a28bac085c505eacd?size=2048",
     "email": "emanuele.tessore@gmail.com",
     "phone": "+39 393 42 27 139",
     "website": "https://www.emanueletessore.com/",
     "summary": "Hi! my name is **Emanuele Tessore**. \n\nI am a **web developer** and definitely a **tech enthusiast**.\n\nI've started developing applications in academia, in early 2000, with languages like **C++** and **Java**.\n\nI've always been fascinated by the potential of the Internet, a passion that led me to face **either technical** or **design and marketing** topics.\n\nTechnology is the key point of my professional career, but it’s also my oldest hobby and of course one **passion** that takes me over the years.",
     "location": {
-      "address": "via Nazario Sauro 14",
-      "postalCode": "30034",
-      "city": "Mira",
+      "address": "via Firenze 3",
+      "postalCode": "30035",
+      "city": "Mirano",
       "countryCode": "IT",
       "region": "Venice"
     },
@@ -37,22 +37,37 @@
   },
   "work": [
     {
-      "company": "Digital Mind",
-      "position": "Dev Ops Manager / Senior Backend Developer",
+      "name": "DMIND",
+      "position": "Dev Ops Manager",
+      "department": "Lab (IT dept.)",
+      "website": "https://www.digital-mind.it/",
+      "startDate": "2022-06-01",
+      "summary": "DMIND is a multi-media Communication Agency: we take care of everithing from creativity to online and offline communication strategy and planning, including technical stuff for your online projects",
+      "highlights": [
+        "CI\\CD Architect for internal and external projects",
+        "Transition to containers for development and production environments",
+        "Kubernetes Architect for hosting internal and external projects",
+        "Servers and network equipment management"
+      ]
+    },
+    {
+      "name": "Digital Mind",
+      "position": "Senior Backend Developer",
       "department": "RedBooth Lab (IT dept.)",
       "website": "https://www.digital-mind.it/",
       "startDate": "2018-10-01",
-      "summary": "",
+      "endDate": "2022-05-31",
+      "summary": "DigitalMind is a multi-media Communication Agency: we take care of everithing from creativity to online and offline communication strategy and planning, including technical stuff for your online projects",
       "highlights": [
         "CI\\CD Architect for internal and external projects",
-        "Servers management",
+        "Servers and network equipment management",
         "Requirements collection, analysis and development of software solutions",
         "IT consultant and audit for third party installations",
         "Development of custom applications"
       ]
     },
     {
-      "company": "Calicantus / WebMaori",
+      "name": "Calicantus / WebMaori",
       "position": "Senior Backend Developer",
       "department": "Technical Dept.",
       "website": "https://calicant.us/",
@@ -68,7 +83,7 @@
       ]
     },
     {
-      "company": "T.S.W.",
+      "name": "T.S.W.",
       "position": "Senior Web Developer",
       "department": "Research & Development",
       "website": "http://www.tsw.it/",
@@ -87,7 +102,7 @@
       ]
     },
     {
-      "company": "FastBooking",
+      "name": "FastBooking",
       "position": "Project Manager and Web Developer",
       "department": "Web Dep. - Research & Development",
       "website": "http://www.fastbooking.com/",
@@ -105,7 +120,7 @@
       ]
     },
     {
-      "company": "Citex Network",
+      "name": "Citex Network",
       "position": "Co-Owner, CTO",
       "department": "IT Ops",
       "website": "",
@@ -119,7 +134,7 @@
       ]
     },
     {
-      "company": "Zip Progetti",
+      "name": "Zip Progetti",
       "position": "Technician",
       "department": "Tech Dept.",
       "website": "http://www.zip-progetti.it/",
@@ -288,6 +303,58 @@
   ],
   "projects": [
     {
+      "name": "Kubernetes in production",
+      "description": "Re-designing the production infrastructure to take advantages of containerization technology, orchestrated by Kubernets",
+      "highlights": [
+        "Research of K8s capabilities",
+        "Evaluation of different SaaS offers: AWS, GCE, DigitalOcean",
+        "Redaction of yaml files for infrastructure description of every project",
+        "Development of Helm charts",
+        "Architecture for shared resources such as mysql, nfs and elasticsearch",
+        "Metrics collection with Loki/Prometheus visualized in Grafana",
+        "Automatic scaling in case of peak demand"
+      ],
+      "keywords": [
+        "docker",
+        "container",
+        "development"
+      ],
+      "startDate": "2020-02-01",
+      "url": "http://www.rblab.it/",
+      "roles": [
+        "Infrastructure Architect",
+        "IT Ops"
+      ],
+      "entity": "Digital Mind",
+      "type": "it-ops"
+    },
+    {
+      "name": "Containerization of dev environment",
+      "description": "The process to move development workflow from a locally installed LAMP stack to docker containers",
+      "highlights": [
+        "Research on costs and benefits of using containers while developing tech projects",
+        "Comparison of container orchestration tools such as docker-compose",
+        "Integration with existing CI\\CD josb and pipelines",
+        "Development of custom docker images",
+        "Porting of existing project to docker-compose environment",
+        "Tool for syncronize databases and media on dev, stage and prod environments",
+        "Bug fixing and new features for CI\\CD, docker images and compose files"
+      ],
+      "keywords": [
+        "docker",
+        "container",
+        "development"
+      ],
+      "startDate": "2019-02-01",
+      "url": "http://www.rblab.it/",
+      "roles": [
+        "Software Architect",
+        "IT Ops"
+      ],
+      "entity": "Digital Mind",
+      "type": "it-ops"
+    },
+    {
       "name": "Graniti Fiandre DAM",
       "description": "A tailor made internal tool for organizing catalogue and marketing images",
       "highlights": [
@@ -361,10 +428,10 @@
     },
     {
       "name": "Blu Hotels",
-      "description": "Company portal and every chain hotel official website (30+ hotels)",
+      "description": "name portal and every chain hotel official website (30+ hotels)",
       "highlights": [
-        "Development of the new company portal and single hotel website, wire-framing and UX/UI design",
-        "Development of web interface to the company's affiliate system",
+        "Development of the new name portal and single hotel website, wire-framing and UX/UI design",
+        "Development of web interface to the name's affiliate system",
         "Development of one way interface between rates manager and website",
         "Project management and client accounting"
       ],
@@ -381,7 +448,7 @@
     },
     {
       "name": "Gajardoni Sport",
-      "description": "Company new e-commerce selling fencing equipment worldwide",
+      "description": "name new e-commerce selling fencing equipment worldwide",
       "highlights": [
         "Installation and maintenance of WooCommerce in a multi-site environment",
         "Development of a one way integration between Danea EasyFatt and WooCommerce"

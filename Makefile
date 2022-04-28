@@ -1,6 +1,7 @@
 DOCKER_TAG="latest"
 DIR=.
 BUILD_DIR=./build
+THEME="ks"
 
 images:
 	@echo Generating Docker images
@@ -14,7 +15,7 @@ build:
 		--rm \
 		--volume $$PWD/src:/home/node/app \
 		--workdir /home/node/app \
-		node resume export resume.html --theme elegant
+		node resume export resume.html --theme ${THEME}
 
 test:
 	@echo Testing resume.json
@@ -32,14 +33,11 @@ serve:
 		--rm \
 		--volume $$PWD/src:/home/node/app \
 		--workdir /home/node/app \
-		node resume serve
-
-clean:
-	@echo Removing $$BUILD_DIR content
-	@echo ----------------------
-	@rm -fr $$BUILD_DIR/*
+		--publish 4000:4000 \
+		node resume serve \
+		--theme /home/node/app/node_modules/
 
 console:
 	@echo Opening console into container
 	@echo ----------------------
-	@docker-compose run -ti --rm node ash
+	@docker-compose run --rm node ash -l
