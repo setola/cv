@@ -18,13 +18,14 @@ install:
 build:
 	@echo Generating CV
 	@echo -------------------------------
+	@mkdir -p src/public
 	@docker run \
 		--rm \
 		-ti \
 		--volume $$PWD/src:/home/node/app \
 		--workdir /home/node/app \
 		node \
-		resume export resume.html --theme ${THEME}
+		resume export public/index.html --theme ${THEME}
 
 test:
 	@echo Testing resume.json
