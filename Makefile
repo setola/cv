@@ -22,7 +22,6 @@ build: install test
 	@mkdir -p src/public
 	@docker run \
 		--rm \
-		-ti \
 		--volume $$PWD/src:/home/node/app \
 		--workdir /home/node/app \
 		node \
