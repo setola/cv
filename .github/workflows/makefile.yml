@@ -7,10 +7,11 @@ on:
 jobs:
   build:
 
-    runs-on: node-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
+    - uses: docker-practice/actions-setup-docker@master
 
     - name: build html resume
       run: make
