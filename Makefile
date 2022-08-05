@@ -25,7 +25,7 @@ build:
 		--volume $$PWD/src:/home/node/app \
 		--workdir /home/node/app \
 		node \
-		resume export public/index.html --theme ${THEME}
+		yarn resume export public/index.html --theme ${THEME}
 
 test:
 	@echo Testing resume.json
@@ -34,7 +34,8 @@ test:
 		--rm \
 		--volume $$PWD/src:/home/node/app \
 		--workdir /home/node/app \
-		node resume validate
+		node \
+		yarn resume validate
 
 serve: install build test
 	@echo Serving CV
@@ -44,9 +45,17 @@ serve: install build test
 		--volume $$PWD/src:/home/node/app \
 		--workdir /home/node/app \
 		--publish 4000:4000 \
-		node resume serve
+		node \
+		yarn resume serve
 
 console:
 	@echo Opening console into container
 	@echo -------------------------------
-	@docker-compose run --rm node ash -l
+	@docker run \
+		--rm \
+		--volume $$PWD/src:/home/node/app \
+		--workdir /home/node/app \
+		--publish 4000:4000 \
+		-ti \
+		node \
+		bash -l

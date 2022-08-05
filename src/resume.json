@@ -10,7 +10,7 @@
     "email": "emanuele.tessore@gmail.com",
     "phone": "+39 393 42 27 139",
     "website": "https://www.emanueletessore.com/",
-    "summary": "Hi! my name is **Emanuele**; I am a **dev ops**, I was a **web developer** and I'll forever be a **tech enthusiast**.\n\nI've started developing applications in academia, in early 2000, with languages like **C++** and **Java**.\n\nI've always been fascinated by the potential of the Internet, a passion that led me to face **either technical** or **design and marketing** topics.\n\nTechnology is the key point of my professional career, but it’s also my oldest hobby and of course one **passion** that takes me over the years.",
+    "summary": "Hi! my name is **Emanuele** but everybody calls me **Tex** or **Setola**.\n\nI'm a **dev ops**, I was a **web developer** and I'll forever be a **tech enthusiast**.\n\nI've started developing applications in academia, in early 2000, with languages like **C++** and **Java**.\n\nI've always been fascinated by the potential of the Internet, a passion that led me to face **either technical** or **design and marketing** topics.\n\nTechnology is the key point of my professional career, but it’s also my oldest hobby and of course one **passion** that takes me over the years.\n\nI like Linux, OpenSource, Arduino and Raspberry PI, Kubernetes, motorbikes and drums",
     "location": {
       "address": "via Firenze 3",
       "postalCode": "30035",
@@ -43,12 +43,13 @@
       "department": "Lab (IT dept.)",
       "website": "https://www.digital-mind.it/",
       "startDate": "2022-06-01",
-      "summary": "DMIND is a multi-media Communication Agency: we take care of everithing from creativity to online and offline communication strategy and planning, including technical stuff for your online projects",
+      "summary": "DMIND is a multi-channel Communication Agency with a strategic consulting approach. We are an interdisciplinary team, organized in dedicated business units, capable of managing all communication assets on and off line.",
       "highlights": [
         "CI/CD Architect for internal and external projects",
         "Transition to containers for development and production environments",
         "Kubernetes Architect for hosting internal and external projects",
-        "Servers and network equipment management"
+        "Servers and network equipment management",
+        "Technical advisor for designing and planning of IT architectures"
       ]
     },
     {
@@ -220,8 +221,9 @@
       "keywords": [
         "CLI",
         "SSH",
-        "Orchestration",
-        "Ubuntu"
+        "Puppet",
+        "Ubuntu",
+        "Kubernetes"
       ]
     },
     {
