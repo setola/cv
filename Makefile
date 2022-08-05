@@ -4,9 +4,10 @@ BUILD_DIR=./build
 THEME=even
 
 .PHONY : install build test
+.DEFAULT_GOAL := build
 
 install:
-	@echo Generating CV
+	@echo Installing dependencies
 	@echo -------------------------------
 	@docker run \
 		--rm \
@@ -15,7 +16,7 @@ install:
 		node \
 		yarn install
 
-build:
+build: install test
 	@echo Generating CV
 	@echo -------------------------------
 	@mkdir -p src/public
@@ -27,7 +28,7 @@ build:
 		node \
 		yarn resume export public/index.html --theme ${THEME}
 
-test:
+test: install
 	@echo Testing resume.json
 	@echo -------------------------------
 	@docker run \
