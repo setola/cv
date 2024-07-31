@@ -1,17 +1,6 @@
 {
-  "name": "app",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
   "dependencies": {
-    "jsonresume-theme-even": "^0.17.0",
-    "jsonresume-theme-github": "^0.0.5",
-    "jsonresume-theme-jacrys": "^1.0.4",
-    "jsonresume-theme-ks": "^1.0.14",
-    "jsonresume-theme-macchiato": "^1.1.0",
-    "jsonresume-theme-orbit": "^1.1.0",
-    "jsonresume-theme-rocketspacer": "^1.2.2",
-    "jsonresume-theme-stackoverflow": "^2.0.0",
-    "resume-cli": "^3.0.7"
+    "jsonresume-theme-even": "^0.22.0",
+    "resumed": "^3.0.1"
   }
 }

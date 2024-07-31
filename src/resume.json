@@ -1,6 +1,6 @@
 {
   "meta": {
-    "theme": "stackoverflow"
+    "theme": "jsonresume-theme-even"
   },
   "basics": {
     "name": "Emanuele Tessore",
@@ -8,22 +8,13 @@
     "picture": "https://www.gravatar.com/avatar/0a45f1fb68f93a8a28bac085c505eacd?size=800",
     "image": "https://www.gravatar.com/avatar/0a45f1fb68f93a8a28bac085c505eacd?size=800",
     "email": "emanuele.tessore@gmail.com",
-    "phone": "+39 393 42 27 139",
     "website": "https://www.emanueletessore.com/",
-    "summary": "Hi! my name is **Emanuele** but everybody calls me **Tex** or **Setola**.\n\nI'm a **dev ops**, I was a **web developer** and I'll forever be a **tech enthusiast**.\n\nI've started developing applications in academia, in early 2000, with languages like **C++** and **Java**.\n\nI've always been fascinated by the potential of the Internet, a passion that led me to face **either technical** or **design and marketing** topics.\n\nTechnology is the key point of my professional career, but it’s also my oldest hobby and of course one **passion** that takes me over the years.\n\nI like Linux, OpenSource, Arduino and Raspberry PI, Kubernetes, motorbikes and drums",
+    "summary": "Hi! my name is **Emanuele** but everybody calls me **Tex** or **Setola**.\n\nI'm a **dev ops**, I was a **web developer** and I'll forever be a **tech enthusiast**.\n\nI've started developing applications in academia, in early 2000, with languages like **C++** and **Java**.\n\nI've always been fascinated by the potential of the Internet, a passion that led me to face **either technical** or **design and marketing** topics.\n\nI also developed a strong interest in automation and interactions between technology and the physical world while exploring micro-controllers, IoT and CNC stuff\n\nTechnology not only is the key point of my professional career, but it’s also my oldest hobby and of course one **passion** that takes me over the years.\n\nI like Linux, OpenSource, Arduino and Raspberry PI, Kubernetes, motorbikes and drums",
     "location": {
-      "address": "via Firenze 3",
-      "postalCode": "30035",
-      "city": "Mirano",
       "countryCode": "IT",
       "region": "Venice"
     },
     "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "Emanuele Tessore",
-        "url": "https://www.linkedin.com/in/emanuele-tessore-02706924/"
-      },
       {
         "network": "GitHub",
         "username": "Setola",
@@ -218,13 +209,7 @@
     {
       "name": "Linux System Administration",
       "level": "Advanced",
-      "keywords": [
-        "CLI",
-        "SSH",
-        "Puppet",
-        "Ubuntu",
-        "Kubernetes"
-      ]
+      "keywords": ["CLI", "SSH", "Puppet", "Ubuntu", "Kubernetes"]
     },
     {
       "name": "DevOps",
@@ -265,34 +250,26 @@
   "interests": [
     {
       "name": "Embedded Systems",
-      "keywords": [
-        "Raspberry PI",
-        "Arduino",
-        "ESP 8266/32"
-      ]
+      "keywords": ["Raspberry PI", "Arduino", "ESP 8266/32"]
     },
     {
       "name": "Music",
-      "keywords": [
-        "Drums",
-        "Sound Engineering"
-      ]
+      "keywords": ["Drums", "Sound Engineering"]
     },
     {
       "name": "Maker",
-      "keywords": [
-        "Wood Working",
-        "CNC Machining",
-        "Gardening"
-      ]
+      "keywords": ["Wood Working", "CNC Machining", "Gardening"]
     },
     {
       "name": "Gamer",
-      "keywords": [
-        "RTS",
-        "FPS",
-        "MOBA"
-      ]
+      "keywords": ["RTS", "FPS", "MOBA"]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "CNC Machine Operator",
+      "date": "2024-07-30",
+      "issuer": "ENAIP"
     }
   ],
   "references": [
@@ -318,17 +295,11 @@
         "Metrics collection with Loki/Prometheus visualized in Grafana",
         "Automatic scaling in case of peak demand"
       ],
-      "keywords": [
-        "docker",
-        "container",
-        "development"
-      ],
+      "keywords": ["docker", "container", "development"],
       "startDate": "2021-02-01",
       "endDate": "2022-02-01",
       "url": "http://www.dmind.it/",
-      "roles": [
-        "Infrastructure Architect"
-      ],
+      "roles": ["Infrastructure Architect"],
       "entity": "DigitalMind",
       "type": "it-ops"
     },
@@ -344,18 +315,11 @@
         "Tool for syncronize databases and media on dev, stage and prod environments",
         "Bug fixing and new features for CI/CD, docker images and compose files"
       ],
-      "keywords": [
-        "docker",
-        "container",
-        "development"
-      ],
+      "keywords": ["docker", "container", "development"],
       "startDate": "2019-02-01",
       "endDate": "2021-02-01",
       "url": "http://www.rblab.it/",
-      "roles": [
-        "Software Architect",
-        "IT Ops"
-      ],
+      "roles": ["Software Architect", "IT Ops"],
       "entity": "DigitalMind",
       "type": "it-ops"
     },
@@ -370,18 +334,11 @@
         "Multi node architecture with decoupled services",
         "Batch process automation via systemd"
       ],
-      "keywords": [
-        "digital assets management",
-        "custom platform"
-      ],
+      "keywords": ["digital assets management", "custom platform"],
       "startDate": "2018-10-01",
       "endDate": "2019-10-01",
       "url": "http://www.iris-group.it/",
-      "roles": [
-        "Software Architect",
-        "Backend Developer",
-        "IT Ops"
-      ],
+      "roles": ["Software Architect", "Backend Developer", "IT Ops"],
       "entity": "DigitalMind",
       "type": "full-stack"
     },
@@ -398,17 +355,11 @@
         "Maintain and add new features",
         "Migrate legacy code and bug-fixing"
       ],
-      "keywords": [
-        "e-commerce",
-        "custom platform"
-      ],
+      "keywords": ["e-commerce", "custom platform"],
       "startDate": "2016-09-05",
       "endDate": "2018-08-01",
       "url": "http://www.kmaori.com/",
-      "roles": [
-        "Software Architect",
-        "Backend Developer"
-      ],
+      "roles": ["Software Architect", "Backend Developer"],
       "entity": "Calicantus",
       "type": "backend"
     },
@@ -426,10 +377,7 @@
       "startDate": "2015-06-17",
       "endDate": "2016-03-27",
       "url": "https://www.edenviaggi.it/",
-      "roles": [
-        "Software Architect",
-        "Backend Developer"
-      ],
+      "roles": ["Software Architect", "Backend Developer"],
       "entity": "T.S.W.",
       "type": "backend"
     },
@@ -446,10 +394,7 @@
       "startDate": "2016-09-05",
       "endDate": "2018-10-25",
       "url": "http://www.bluhotels.it/",
-      "roles": [
-        "Backend Developer",
-        "Project Manager"
-      ],
+      "roles": ["Backend Developer", "Project Manager"],
       "entity": "FastBooking",
       "type": "full-stack"
     },
@@ -463,9 +408,7 @@
       "keywords": [],
       "startDate": "2016-11-03",
       "url": "http://www.gajardoni.com/",
-      "roles": [
-        "Backend Developer"
-      ],
+      "roles": ["Backend Developer"],
       "entity": "Citex Network",
       "type": "backend"
     }

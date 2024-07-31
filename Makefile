@@ -1,7 +1,12 @@
+THEME=jsonresume-theme-even
+NPM=yarn
+NPM_SUBCOMMAND=resumed
 DOCKER_TAG="latest"
-DIR=.
-BUILD_DIR=./build
-THEME=even
+DOCKER_OPTS= \
+		--rm \
+		--volume $$PWD/src:/home/node/app \
+		--workdir /home/node/app \
+		--user $(id -u):$(id -g)
 
 .PHONY : install build test
 .DEFAULT_GOAL := build
@@ -9,53 +14,39 @@ THEME=even
 install:
 	@echo Installing dependencies
 	@echo -------------------------------
+	@mkdir -p $$PWD/src/node_modules
 	@docker run \
-		--rm \
-		--volume $$PWD/src:/home/node/app \
-		--workdir /home/node/app \
-		node \
-		yarn install
+		${DOCKER_OPTS} \
+		node:${DOCKER_TAG} \
+		${NPM} install
 
 build: install test
 	@echo Generating CV
 	@echo -------------------------------
-	@mkdir -p src/public
+	@mkdir -p $$PWD/src/public
 	@docker run \
-		--rm \
-		--volume $$PWD/src:/home/node/app \
-		--workdir /home/node/app \
-		node \
-		yarn resume export public/index.html --theme ${THEME}
+		${DOCKER_OPTS} \
+		node:${DOCKER_TAG} \
+		${NPM} ${NPM_SUBCOMMAND} export --output public/index.html --theme ${THEME}
 
 test: install
 	@echo Testing resume.json
 	@echo -------------------------------
 	@docker run \
-		--rm \
-		--volume $$PWD/src:/home/node/app \
-		--workdir /home/node/app \
-		node \
-		yarn resume validate
-
-serve: install build test
-	@echo Serving CV
-	@echo -------------------------------
-	@docker run \
-		--rm \
-		--volume $$PWD/src:/home/node/app \
-		--workdir /home/node/app \
-		--publish 4000:4000 \
-		node \
-		yarn resume serve
+		${DOCKER_OPTS} \
+		node:${DOCKER_TAG} \
+		${NPM} ${NPM_SUBCOMMAND} validate
 
 console:
 	@echo Opening console into container
 	@echo -------------------------------
 	@docker run \
-		--rm \
-		--volume $$PWD/src:/home/node/app \
-		--workdir /home/node/app \
-		--publish 4000:4000 \
+		${DOCKER_OPTS} \
 		-ti \
-		node \
+		node:${DOCKER_TAG} \
 		bash -l
+
+clean:
+	@echo Cleaning project
+	@echo -------------------------------
+	@rm -fr src/public src/node_modules
