@@ -24,14 +24,14 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout
-      - uses: docker-practice/actions-setup-docker
+      - uses: actions/checkout@v3
+      - uses: docker-practice/actions-setup-docker@master
       - name: build html resume
         run: make
       - name: Setup Pages
-        uses: actions/configure-pages
+        uses: actions/configure-pages@v1
       - name: Upload artifact
-        uses: actions/upload-pages-artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "./src/public"
       - name: Deploy to GitHub Pages
